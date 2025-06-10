@@ -1,0 +1,12 @@
+@HangFire_HostAddress = http://localhost:5276
+
+### Add Order
+POST {{HangFire_HostAddress}}/add-order/
+Content-Type: application/json
+Accept: application/json
+
+{
+  "customername": "John Doe",
+  "customeremail": "ficexi8533@3dboxer.com",
+  "product": "Widget"
+}
